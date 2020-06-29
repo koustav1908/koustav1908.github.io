@@ -75,17 +75,17 @@ a:active
 #one
 {
 	min-height: 500px;
-	background-image: url("../images/education_1.jpg")
+	background-image: url("../images/education_1.jpg");
 }
 #two
 {
 	min-height: 500px;
-	background-image: url("../images/hobbies_3.jpg")
+	background-image: url("../images/hobbies_3.jpg");
 }
 #three
 {
 	min-height: 500px;
-	background-image: url("../images/interests_1.jpg")
+	background-image: url("../images/interests_1.jpg");
 }
 .parallax 
 {
