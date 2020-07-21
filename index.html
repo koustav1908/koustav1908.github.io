@@ -6,67 +6,142 @@
 	<meta name="author" content="Koustav Sen">
 	<meta name="keywords" content="koustav, sen, github, cse, iit, bombay, west bengal, india">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
 	<title>Koustav Sen</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<div class="parallax" id="home">
-		<nav class="navbar navbar-fixed-top">
-			<ul>
-				<li><a href="#home"><div class="navobject"><span class="glyphicon glyphicon-home" style="font-size: 15px"></span> HOME</div></a></li>
-				<li><a href="#aboutme"><div class="navobject">ABOUT ME</div></a></li>
-				<li><a href="#education"><div class="navobject">EDUCATION</div></a></li>
-				<li><a href="#hobbies"><div class="navobject">HOBBIES</div></a></li>
-				<li><a href="#interests"><div class="navobject">INTERESTS</div></a></li>
-				<li><a href="#contact_me"><div class="navobject">CONTACT ME</div></a></li>
+<body data-spy="scroll" data-target=".navbar-custom" data-offset="150">
+	<nav class="navbar-custom navbar-expand-md navbar-light fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#home"><span class="fa fa-home" style="font-size: 2vw; padding:0;"></span> HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about_me">ABOUT ME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">PROJECTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#interests">INTERESTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#carouselExampleIndicators">GALLERY</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact_me">CONTACT ME</a>
+				</li>
 			</ul>
-		</nav>
-		<div class="info" style="margin-bottom: -50px;font-family: 'Oswald', sans-serif;">
-			<h1 style="margin-top: 0px; margin-bottom: 20px; font-size: 70px;">KOUSTAV SEN</h1>
-			<h3>| COMPUTER SCIENCE AND ENGINEERING | IIT BOMBAY |</h3>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="pics" id="home" style="background-image: url('images/image_1.jpg');">
+			<img src="images/image_3.png" style="padding-top: 18%; width: 40vw; height: auto; ">
+			<p style="letter-spacing: 1vw; margin: 2.5vw 0vw;">| COMPUTER SCIENCE AND ENGINEERING | IIT BOMBAY |</p>
+		</div>
+		<div class="heading" id="about_me">
+			<h1>ABOUT ME</h1>
+			<hr>
+			<p>Hey there! Welcome to my personal website. This website is created as a part of my Learner's Space Web Development project.</p>
+			<p>I am Koustav Sen. I am a first year Computer Science and Engineering undergraduate at Indian Institute of Technology Bombay. I am a coding enthusiast. My likes include Competitve Programming and Machine Learning. I am from a small city of West Bengal. I passed my class 10th ICSE examination from <b>St. Joseph's Convent Higher Secondary School</b>, Chittaranjan. I completed my 11th and 12th from <b>Hemsheela Model School</b>, Durgapur. Fetching a decent AIR in JEE, landed me at IIT Bombay.</p>
 		</div>
 	</div>
-	
-	<div style="color: #777;background-color:#e6f3ff;text-align:center;padding:50px 80px;text-align: justify;" id="aboutme">
-		<h2 style="text-align:center;color:#004080;">ABOUT ME</h2>
-		<p>Hey, I am Koustav Sen, a First year Undergraduate in Computer Science and Engineering at IIT Bombay. I am from a fairly large city of West Bengal. The place is known Asansol. I grew up in a small yet beautiful town on the outskirts of the state. I really enjoy learning ML and its applications. I am a big fan of FC Barcelona. I do like spending leisure watching sitcoms, web series and sports, painting potraits and landscapes.</p><br>
-	</div>
-	
-	<div class="parallax" id="one"></div>
-	<div style="color: #777;background-color:#ffddcc;text-align:center;padding:50px 80px;text-align: justify;" id="education">
-		<h2 style="text-align:center;color:#b33c00;">EDUCATION</h2>
-		<p>I completed my 10th grade from <a target="_blank" href="http://sjccrj.org/">St. Joseph's Convent Higher Secondary School</a> in 2017 with 97.6% marks. I studied for two years at <a target="_blank" href="http://www.hemsheela.in/">Hemsheela Model School</a> passing my 12th grade in 2019 with 97.2% marks.
-		</p>
-		<p>Currently I am a First year undergraduate student at the department of Computer Science and Engineering at IIT Bombay.</p>
-	</div>
-	
-	<div class="parallax" id="two"></div>
-	<div style="color: #777;background-color:#e6ffb3;text-align:center;padding:50px 80px;text-align: justify;" id="hobbies">
-		<h2 style="text-align:center;color:#223300;">HOBBIES</h2>
-		<p>Painting is my hobby. I just love it. I used to paint pictures for my school functions' decorations. Specially I love sketching and pencil shading. I have also done a bit of glass painting, portrait, and oil painting.</p>
-		<p>I also have a keen interest in sports. I love athletics and football. I used to play football with my friends since shcool. My favourite football club is FC Barcelona. I enjoy staying up overnight watching them play the world famous tiki taka style of football.</p>
-		<p>Sitting at home, I have developed an interest in solving sudoku puzzles.</p>
-		<p>Besides, I also like to watch sitcoms and web series. Some of my favourites are <b>Seinfield</b>, <b>The Big Bang Theory</b> and <b>Sherlock</b>.</p>
-	</div>
-	
-	<div class="parallax" id="three"></div>
-	<div style="color: #777;background-color:#ffff99;text-align:center;padding:50px 80px;text-align: justify;" id="interests">
-		<h2 style="text-align:center;color:#804000;">INTERESTS</h2>
-		<p>As a computer science student, I am interested in Machine Learning and its applications. Deep Learning, image and speech recognition are some of the fields I am really interested in. During this COVID-19 situation I have been learning neural nets and their wide scale usage in Deep Learning. I do have an interest in competitive coding. But I would like to admit that I am not extremly good at it. Besides, I also like Chemistry specially the organic mechanisms and reacitons. If you want to have a rapport conversation with me then lets' talk about organic chemistry.</p>
-	</div>
-	<div class="parallax" id="contact_me">
-		<div style="color: #ffffff; text-align: center; padding: 50px 80px; text-align: justify;">
-			<h2 style="text-align: left;">CONTACT ME</h2>
-			<p><i class="fa fa-phone" style="font-size: 40px"></i>&nbsp;&nbsp;+91-6294682862</p>
-			<a href="https://github.com/koustav1908"><i class="fa fa-github"></i></a>
-			<a href="https://www.facebook.com/koustav.sen.58511/"><i class="fa fa-facebook-official"></i></a>
-			<a href="mailto:koustavsen17@gmail.com"><i class="fa fa-envelope"></i></a>
+	<div class="container">
+		<div class="pics" style="background-image: url('images/image_2.jpg');"></div>
+		<div class="heading" id="projects">
+			<h1>MY PROJECTS</h1>
+			<hr>
+			<p>Being a CSE student, I am interested in Machine Learning and Artificial Intelligence. I have completed a specilization in Deep Learning under Andrew Ng, one of the pioneers in this field. Here is a list of my projects :</p>
+			<dl>
+				<dt>ML GYM</dt>
+				<dd>Developed a web platform wherein user can upload training data, choose a training algorithm and provide some of the parameters to obtain results. Lastly the algorithm will auto tune the parameters and return the optimal set of parameters. This project was a part of Season of Code 2020. It was a tremendous opportunity for me to work and collaborate with a team.</dd>
+				<dt>Web Development under Learner's Space 2020</dt>
+				<dd>Developed this website using CSS, Bootstrap and Javascript.</dd> 
+			</dl>
 		</div>
 	</div>
+	<div class="container">
+		<div class="pics" style="background-image: url('images/image_4.jpg');"></div>
+		<div class="heading" id="interests">
+			<h1>MY INTERESTS</h1>
+			<hr>
+			<p>I am not the typical CSE undergrad which people generally assume. As for me, I do like spending time watching sports, web series and sitcoms. Here is a short list of my interests :</p>
+			<dl>
+				<dt>Painting</dt>
+				<dd>I developed a passion in painting while drawing backdrop images in school functions. Since then I used to draw sketches, oil paintings, pencil shading and glass paintings.</dd>
+				<dt>Sudoku Puzzle</dt>
+				<dd>Sitting idle at home during COVID-19 lockdown, I started solving sudoku puzzles and really enjoyed it. I got interested in the algorithms which are used to solve such puzzles in a computer.</dd>
+				<dt>Television</dt>
+				<dd>I like watching anime, web series and sitcoms. Some of my favourites are:
+					<ul>
+						<li>Seinfield</li>
+						<li>The Big Bang Theory</li>
+						<li>Attack on Titan</li>
+						<li>Dark</li>		
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="images/family.jpg" alt="MY FAMILY" style="height: 68vw;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/with_sister.jpg" alt="WITH MY SISTER" style="height: 68vw;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/visapur_fort.jpg" alt="ME" style="height: 68vw;">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container">
+		<div class="heading" id="contact_me">
+			<h1 style="margin-top: 2vw; margin-bottom: 0.5vw;">CONTACT ME</h1>
+			<div class="contact-form">
+				<form method="POST" action="https://formspree.io/xvowveny">
+					<input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+					<input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+					<textarea name="feedback" class="form-control" rows="5" placeholder="Feedback" required></textarea><br>
+					<input type="submit" class="form-control submit" value="SEND FEEDBACK" >
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer style="position: relative; top: 10vw;">
+		<br>
+		<hr style="margin: 0vw 1.5vw; padding: 0vw; border: 0.01vw solid gray;">
+		<br>
+		<div style="position: relative; height: 5vw; text-align: center;">
+			<a href="https://github.com/koustav1908"><span class="fa fa-github footer-icon"></span></a>
+			<a href="https://www.facebook.com/koustav.sen.58511/"><span class="fa fa-facebook-official footer-icon"></span></a>
+			<a href="mailto:koustavsen17@gmail.com"><span class="fa fa-envelope footer-icon"></span></a>
+			<a href="https://www.linkedin.com/in/koustav-sen-9a6803190/"><span class="	fa fa-linkedin-square footer-icon"></span></a>
+			<br>
+			<p style="padding-top: 1vw; font-size: 1vw;">Created by Koustav Sen</p>
+		</div>
+	</footer>
 </body>
 </html>
